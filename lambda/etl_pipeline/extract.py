@@ -5,12 +5,13 @@ import requests
 import constants.dataframe as DATAFRAME
 import constants.urls as URLS
 
+
 def extract_restaurants_data():
     """
     ddd
     """
     url = URLS.RESTAURANTS_DATA_URL
-    response = requests.get(url)
+    response = requests.get(url, timeout=20)
     return response.json()
 
 

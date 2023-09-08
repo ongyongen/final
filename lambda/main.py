@@ -8,7 +8,8 @@ ddd
 # from etl_pipeline.extract import \
 #     extract_restaurants_data, extract_countries_data, extract_restaurant_records_from_parsed_json
 # from etl_pipeline.transform import \
-#     parse_restaurant_records_into_df, process_event_data_for_restaurants, prepare_data_for_q1, prepare_data_for_q2
+#     parse_restaurant_records_into_df, process_event_data_for_restaurants \
+# prepare_data_for_q1, prepare_data_for_q2
 
 if __name__ == '__main__':
     # data = extract_restaurants_data()

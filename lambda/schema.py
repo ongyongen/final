@@ -1,3 +1,7 @@
+"""
+fff
+"""
+
 # Schema for the main results json
 results_schema = {
     "type": "object",
@@ -22,7 +26,7 @@ results_schema = {
                     }
                 }
             }
-        }               
+        }
     },
 
     "required": [
@@ -208,4 +212,3 @@ events_schema = {
         "end_date"
     ]
 }
-
